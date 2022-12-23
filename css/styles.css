@@ -6,6 +6,12 @@
     margin: 0;
     padding: 0;
 }
+.separador h3 {
+	text-align: center;
+	padding: 15px;
+    border: 1px solid darkgrey;
+	background-color:#fceff5;
+}
 .navbar-brand img{
     height: 12vh;
 }
@@ -34,9 +40,20 @@
 .contactos iframe{
     padding: 20px;
 }
+.card{
+    margin: 15px;
+}
+.card img{
+    height: 40vh;
+    object-fit: fill;
+}
+.postulate{
+    width: 70vw;
+}
 main{
     background-color: #fceff5;
 }
 footer{
     background-color: #fad7da;
 }
+
