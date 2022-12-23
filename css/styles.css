@@ -16,7 +16,7 @@
 .nav-link{
     border-bottom: 1px solid grey;
 }
-/* .carousel-item{
+.carousel-item{
     height: 84vh;
 }
 .carousel-item img{
@@ -24,4 +24,19 @@
     object-fit: cover;
     object-position: center;
     
-} */
+}
+.contactos img{
+    padding: 20px;
+    height: 150px;
+    height: 150px;
+
+}
+.contactos iframe{
+    padding: 20px;
+}
+main{
+    background-color: #fceff5;
+}
+footer{
+    background-color: #fad7da;
+}
