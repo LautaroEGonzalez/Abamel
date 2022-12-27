@@ -12,6 +12,9 @@
     border: 1px solid darkgrey;
 	background-color:#fceff5;
 }
+/* .carousel-control-next, .carousel-control-prev{
+    color: black !important;
+} */
 .navbar-brand img{
     height: 12vh;
 }
@@ -33,8 +36,8 @@
 }
 .contactos img{
     padding: 20px;
-    height: 150px;
-    height: 150px;
+    height: 125px;
+    height: 125px;
 
 }
 .contactos iframe{
@@ -42,13 +45,24 @@
 }
 .card{
     margin: 15px;
+    border-radius: 5%;
+    border: 2px solid #fad7da ;
 }
 .card img{
     height: 40vh;
-    object-fit: fill;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid #fad7da
+}
+
+.card-title{
+    border-bottom: 1px solid grey;
 }
 .postulate{
-    width: 70vw;
+    margin: 20px 20% 20px 20%;
+    border: 2px solid #fad7da;
+    border-radius: 2%;
+    padding: 10px;
 }
 main{
     background-color: #fceff5;
