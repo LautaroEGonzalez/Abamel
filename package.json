@@ -1,7 +1,7 @@
 {
   "name": "abamel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tienda de Pasteleria Argentina, venta y reserva de pedidos.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
