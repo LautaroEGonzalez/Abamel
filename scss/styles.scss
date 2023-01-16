@@ -1,7 +1,6 @@
-@font-face {
-    font-family: gatwick;
-    src: url(../assets/Gatwick/Gatwick-Bold.otf);
-}
+@import url(./_fonts.scss);
+@import url(./_productos.scss);
+@import url(./_empleo.scss);
 * {
     margin: 0;
     padding: 0;
@@ -54,28 +53,3 @@
 
 }
 
-.card{
-    margin: 15px;
-    border-radius: 5%;
-    border: 2px solid #fad7da;
-    img{
-        height: 40vh;
-        object-fit: cover;
-        border-radius: 100%;
-        border: 1px solid #fad7da
-    }
-    .card-title{
-        border-bottom: 1px solid grey;
-    }
-}
-
-.postulate{
-    margin: 20px 20% 20px 20%;
-    border: 2px solid #fad7da;
-    border-radius: 2%;
-    padding: 10px;
-}
-
-.btn{
-    background-color: #d3a7ab;
-}

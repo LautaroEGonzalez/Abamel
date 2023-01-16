@@ -1,0 +1,14 @@
+.card{
+    margin: 15px;
+    border-radius: 5%;
+    border: 2px solid #fad7da;
+    img{
+        height: 40vh;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 1px solid #fad7da
+    }
+    .card-title{
+        border-bottom: 1px solid grey;
+    }
+}
