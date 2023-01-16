@@ -1,7 +1,81 @@
-*{
-    background-color: blue;
-    div {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@font-face {
+    font-family: gatwick;
+    src: url(../assets/Gatwick/Gatwick-Bold.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    header{
+        .navbar-brand {
+            img {
+            height: 12vh;
+            }
+        }
+        .nav-item{
+            padding-right: 20px;
+            font-family: gatwick;
+            nav-link{
+                border-bottom: 1px solid grey;
+            }
+        }    
+    }
+    main{
+        background-color: #fceff5;
+        .separador{
+            h3{
+                text-align: center;
+                padding: 15px;
+                border: 1px solid darkgrey;
+                background-color:#fceff5;
+            }
+        }
+        .carousel-item{
+            height: 84vh;
+            img{
+                height: 84vh;
+                object-fit: cover;
+                object-position: center; 
+            }
+        }
+        .contactos{
+            img{
+                padding: 20px;
+                height: 125px;
+                height: 125px;            
+            }
+            iframe{
+                padding: 20px;
+            }
+        }
+    }
+    footer{
+        background-color: #fad7da;
+    }
+
+}
+
+.card{
+    margin: 15px;
+    border-radius: 5%;
+    border: 2px solid #fad7da;
+    img{
+        height: 40vh;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 1px solid #fad7da
+    }
+    .card-title{
+        border-bottom: 1px solid grey;
     }
 }
 
+.postulate{
+    margin: 20px 20% 20px 20%;
+    border: 2px solid #fad7da;
+    border-radius: 2%;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #d3a7ab;
+}
