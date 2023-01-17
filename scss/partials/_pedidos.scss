@@ -1,25 +1,26 @@
 .pedidos{
-    height: 100vh;
-    border:  1px solid black;
+    height: 100%;
+    border:  1px solid $color-boton;
     .row{
-        border: 1px solid black;
+        border: 1px solid $color-boton;
 
     }
-    .clasicas{
-        height: 20vh;
-    }
+    // .clasicas{
+    //     height: 0%;
+    // }
     
-    .diseño{
-        height: 20vh;
-    }
-    .galletitas{
-        height: 20vh;
-    }
+    // .diseño{
+    //     height: 0%;
+    // }
+    // .galletitas{
+    //     height: 0%;
+    // }
     .alt{
-        height: 45px;
+        height: 50px;
     }
 }
 
 .padd{
     padding: 20px;
 }
+
