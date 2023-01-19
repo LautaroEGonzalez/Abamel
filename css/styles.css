@@ -41,8 +41,7 @@
   height: 500px;
   width: 500px;
   border-radius: 100%;
-  border-color: 1px solid #fad7da;
-  margin: 30px; }
+  border-color: 1px solid #fad7da; }
 
 @media (max-width: 600px) {
   .nosotros img {
