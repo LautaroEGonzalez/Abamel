@@ -38,7 +38,16 @@
 
 .nosotros img {
   padding: 30px;
-  width: 80%; }
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  border-color: 1px solid #fad7da;
+  margin: 30px; }
+
+@media (max-width: 600px) {
+  .nosotros img {
+    height: 250px;
+    width: 250px; } }
 
 * {
   margin: 0;
