@@ -44,20 +44,31 @@
         }
         .contactos{
             border-top: 1px solid $color-header;
-            img{
-                padding: 20px;
-                height: 125px;
-                height: 125px;            
-            }
-            iframe{
-                padding: 20px;
-            }
             .redes{
                 border-right: 1px solid $color-header;
+                img{
+                    padding: 20px;
+                    height: 125px;
+                    height: 125px;            
+                }
+                p{
+                    background-color: $color-header;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                }
+            }
+            .mapa{
+                iframe{
+                    padding-bottom: 10px;
+                }
+                p{
+                    background-color: $color-header;
+                    font-weight: bold;
+                    font-size: 1.2rem;  
+                }
             }
         }
         .principal{
-            
             img{
                 width: 250px;
                 height: 250px; 
@@ -69,4 +80,3 @@
         background-color: $color-header;
     }
 }
-

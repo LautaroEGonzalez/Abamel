@@ -3,7 +3,8 @@
     border-radius: 5%;
     border: 2px solid #fad7da;
     img{
-        height: 40vh;
+        height: 30vh;
+        width: 30vh;
         object-fit: cover;
         border-radius: 100%;
         border: 1px solid #fad7da
@@ -11,4 +12,12 @@
     .card-title{
         border-bottom: 1px solid grey;
     }
+}
+@media (max-width: 1200px){ 
+    .card{
+        img{
+            height: 20vh;
+            width: 20vh;
+        }
+    }   
 }
