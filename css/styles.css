@@ -68,6 +68,8 @@
       border-bottom: 1px solid grey; }
   * main {
     background-color: #fceff5; }
+    * main .link {
+      text-decoration: none; }
     * main .separador h3 {
       text-align: center;
       padding: 15px;
