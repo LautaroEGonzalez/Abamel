@@ -20,6 +20,9 @@
     height: 20vh;
     width: 20vh; } }
 
+.padd {
+  padding: 20px; }
+
 .postulate {
   margin: 20px 20% 20px 20%;
   border: 2px solid #fad7da;
@@ -27,6 +30,9 @@
   padding: 10px; }
   .postulate .btn {
     background-color: #d3a7ab; }
+
+.padd {
+  padding: 20px; }
 
 .pedidos {
   height: 100%;
@@ -53,6 +59,9 @@
   .nosotros img {
     height: 250px;
     width: 250px; } }
+
+.padd {
+  padding: 20px; }
 
 * {
   margin: 0;
