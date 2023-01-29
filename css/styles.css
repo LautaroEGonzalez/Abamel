@@ -23,6 +23,12 @@
 .padd {
   padding: 20px; }
 
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.1); }
+
 .postulate {
   margin: 20px 20% 20px 20%;
   border: 2px solid #fad7da;
@@ -34,6 +40,12 @@
 .padd {
   padding: 20px; }
 
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.1); }
+
 .pedidos {
   height: 100%;
   border: 1px solid #d3a7ab; }
@@ -44,6 +56,12 @@
 
 .padd {
   padding: 20px; }
+
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.1); }
 
 .nosotros .nosotros--texto {
   font-size: 1rem; }
@@ -62,6 +80,12 @@
 
 .padd {
   padding: 20px; }
+
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.1); }
 
 * {
   margin: 0;
