@@ -2,10 +2,19 @@
   font-family: gatwick;
   src: url(../assets/Gatwick/Gatwick-Bold.otf); }
 
+.aver{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .card {
   margin: 15px;
   border-radius: 5%;
-  border: 2px solid #fad7da; }
+  border: 2px solid #fad7da; 
+  padding: 5px;
+  margin: 5px;
+}
+  
   .card img {
     height: 30vh;
     width: 30vh;
